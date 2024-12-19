@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+
+            body{
+                background-image: url(home1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow: hidden;
+            }
+
+            .navbar{
+                width: 100%;
+                padding: 20px;
+                background-color: transparent;
+                backdrop-filter: blur(15px);
+                border-bottom: 2px solid rgb(233, 231, 227);
+            }   
+            
+            .navbar ul li{
+                padding: 90px;
+                font-size: 25px;
+                margin: auto;
+                display: inline;
+                text-transform: uppercase;
+                justify-content: space-between;
+                position: relative;
+            }
+
+            .navbar ul li a{
+                display: inline;
+                text-decoration: none;
+                color: aliceblue;
+                align-items: center;
+                transition: 2s;
+            }
+
+            .navbar ul li a:hover{
+                color: yellow;
+                background: transparent;
+                border: 2px solid seagreen ;
+                padding: 10px;
+            }
+
+            .container{
+                position: relative;
+                text-align: left;
+                margin-top: 13%;
+                margin-left: 50px;
+            }
+
+            .container h1{
+                font-family: Georgia;
+                font-size: 80px;
+                color: white;
+                text-shadow: -1px 0 black;
+            }
+
+            .container p{
+                font-family: Georgia;
+                font-size: 15px;
+                color: white;
+                padding: 17px 0;
+                text-shadow: -3px black;
+            }
+
+            .container h1 label{
+                text-decoration: underline 6px yellow;
+            }
+
+            .container p label{
+                font-size: 12px;
+            }
+
+            .button{
+                width: 30%;
+                height: 15%;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+
+            .button button{
+                width: 150px;
+                height: 50px;
+                background-color: darkred;
+                border: none;
+                border: 2px solid rgb(0, 10, 10);
+                border-radius: 30px;
+                color: aliceblue;
+                font-size: 12px;
+                cursor: pointer;
+                margin-left: 30px;
+                transition: 1s;
+            }
+
+            .button button:hover{
+                transform: scale(1.1);
+                background-color: transparent;
+                box-shadow: 20px 10px 18px 0 rgb(2, 12, 12);
+            }
+
+            .info{
+                display: flex;
+                margin-top: 10%;
+                width: 100%;
+                padding: 25px;
+                background-color: transparent;
+                backdrop-filter: blur(15px);
+                border-top: 2px solid black;
+            }
+
+            .info p{
+                margin: -20px 10px;
+                font-size: 20px;
+                color: aliceblue;
+                text-shadow: -5px;
+            }
+
+            .info ul{
+              margin-bottom: 30px;
+              margin-left: 17%;
+              font-family: georgia;
+              text-shadow: 10px 0px 10px black;
+              font-size: 30px;
+          }
+
+          .info ul li{
+              display: inline-block;
+              text-align:center;
+              cursor: text;
+              color: aliceblue;
+              font-size:"";
+              margin-inline: 30px;
+          }
+
+          .info i{
+            color: aliceblue;
+            font-size: 50px;
+            margin-left: 13%;
+            cursor: pointer;
+            transition: 0.5s;
+          }
+
+          .info i:hover{
+            color: gray;
+            text-shadow: 10px 0 10px;
+            transform: rotate(180deg);
+          }
+
+        .sidebar{
+            width: 50px;
+            height: 100vh;
+            position: absolute;
+            background-color: transparent;
+            backdrop-filter: blur(20px);
+            right: 0;
+            top: 0%;
+            border-left: 2px solid white;
+        }
+
+        .sidebar i{
+            width: 50px;
+            cursor: pointer;
+            margin: 22px;
+            font-size: 25px;
+            margin-left: 0px;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .sidebar i:hover{
+            transform: scale(1.3);
+            text-shadow: #13f584 5px 0 10px ;
+            transition: 1s;
+        }
+
+        .social-links i, .useful-link i{
+            width: 50px;
+            margin: 5px auto;
+            cursor: pointer;
+        }
+
+        .social-links{
+            width: 50px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .useful-link{
+            width: 50px;
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Contect</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h1>Sakshi <br> <label for="">En</label>terprises</h1>
+            <p>The Factory that produces the daily used row matirials. <label for="">raw matirial business </label></p>
+        </div>
+
+        <div class="button">
+        <a href="#" ><button type="button">Explore</button></a>
+        <a href="pg2.html" ><button type="button">Sign Up</button></a>
+        </div>
+
+        <div class="info">
+            <p>Wire nails are one of the most popular andcommonly used.
+            <br>They are used to fasten materials together. They are made
+            <br>from a metal wire that is either electroplated with zinc or
+            <br>galvanized to prevent rusting.</p>
+
+            <i class='bx bx-chevron-down-circle'></i>
+
+            <ul>
+                <li>/ONE</li>
+                <li>/TWO</li>
+                <li>/THREE</li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <i class='bx bx-menu'></i>
+
+            <div class="social-links">
+                <i class='bx bxl-instagram-alt' ></i>
+                <i class='bx bxl-facebook-circle' ></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+
+            <div class="useful-link">
+                <i class='bx bx-share-alt' ></i>
+                <i class='bx bx-info-circle' ></i>
+        </div>
+    </body>
+</html>
